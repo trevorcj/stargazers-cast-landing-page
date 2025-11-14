@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0 20px;
+  position: relative;
+}
+
+nav {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container p {
+}
+
+.cast-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* .modal-overlay {
+  background-color: rgba(19, 23, 31, 0.54);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 999;
+} */
+
+/* .modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #181c25;
+  color: #fff;
+  width: min(90%, 600px);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.modal-overlay button {
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  width: 40px;
+  transform: scale(1.5);
+  height: 40px;
+  border: none;
+  border-radius: 60px;
+  background-color: #1a1f28;
+  color: #c2c7d0;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+article {
+  overflow: scroll;
+}
