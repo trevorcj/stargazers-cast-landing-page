@@ -6,4 +6,4 @@ Members of an intergalactic alliance paving the way for peace and benevolence am
 
 ---
 
-**Demo:** [Visit Stargazers](x.com)
+**Demo:** [Visit Stargazers](https://trevorcj.github.io/stargazers-cast-landing-page/)
